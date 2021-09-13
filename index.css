@@ -1,0 +1,125 @@
+body {
+	background-color: hsl(185, 75%, 39%);
+	overflow: hidden;
+}
+
+.css-main {
+	display: flex;
+}
+
+.css-bgimage-top {
+	position: relative;
+	top: -500px;
+    left: -250px;
+}
+
+.css-bgimage-bottom {
+	position: relative;
+	bottom: -350px;
+    right: 245px;;
+}
+
+
+.css-card {
+	border-radius: 15px;
+	position: absolute;
+	height: 390px;
+	width: 350px;
+	top: 20%;
+	left: 38%;
+	background-color: ghostwhite;
+}
+
+.css-card-cover {	
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	position: relative;
+	height: 156px;
+	overflow: hidden;
+}
+
+.css-card-content {
+	height: 156px;
+	border-bottom: 1px solid lightgray;
+	overflow: visible;
+}
+
+.css-card-content ul {
+	display: flex;
+	flex-direction: column;
+	list-style-type: none;
+	justify-content: center;
+	margin: 0px;
+	padding: 0px;
+}
+
+.picture {
+	display: flex;
+	justify-content: center;
+	overflow: visible;
+	margin-top: -50px;
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+.css-card-content ul li p {
+	display: flex;
+	justify-content: center;
+	font-family: "Kumbh Sans", sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	margin: 0px;
+    padding: 0px;
+}
+
+.css-card-content ul li span {
+	display: flex;
+	justify-content: center;
+	font-family: "Kumbh Sans", sans-serif;
+	font-size: 11px;
+	font-weight: 400;
+	color: gray;
+	padding-top: 5px;
+}
+
+.css-card-footer {
+	position: relative;
+	height: 78px;
+}
+
+.css-card-footer ul {
+	display: flex;
+	list-style-type: none;
+	flex-direction: row;
+	justify-content: space-around;
+	padding:  0;
+	margin: 20px 50px 20px 50px;
+}
+
+.css-card-footer ul li p {
+	display: flex;
+	justify-content: center;
+	font-family: "Kumbh Sans", sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	margin: 0px;
+    padding: 0px;
+}
+
+.css-card-footer ul li span {
+	display: flex;
+	justify-content: center;
+	font-family: "Kumbh Sans", sans-serif;
+	font-size: 11px;
+	font-weight: 400;
+	color: gray;
+	padding-top: 5px;
+}
+
+
+
