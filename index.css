@@ -15,33 +15,33 @@ body {
 
 .css-bgimage-bottom {
 	position: relative;
-	bottom: -350px;
-    right: 245px;;
+	bottom: -370px;
+    right: 580px;
 }
 
 
 .css-card {
 	border-radius: 15px;
-	position: absolute;
+	position: relative;
+	top: 150px;
+    left: -370px;
 	height: 390px;
 	width: 350px;
-	top: 20%;
-	left: 38%;
 	background-color: ghostwhite;
 }
 
-.css-card-cover {	
+.css-card-cover {;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
 	position: relative;
 	height: 156px;
-	overflow: hidden;
+	width: 350px;
+	background-image: url("images/bg-pattern-card.svg");
 }
 
 .css-card-content {
 	height: 156px;
 	border-bottom: 1px solid lightgray;
-	overflow: visible;
 }
 
 .css-card-content ul {
@@ -56,15 +56,20 @@ body {
 .picture {
 	display: flex;
 	justify-content: center;
-	overflow: visible;
 	margin-top: -50px;
+}
+
+.picture img {
+	position: absolute;
+	border: 5px solid whitesmoke;
+	border-radius: 50%;
 }
 
 .info {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	margin-top: 30px;
+	margin-top: 80px;
 }
 
 .css-card-content ul li p {
