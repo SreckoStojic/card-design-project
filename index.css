@@ -4,27 +4,37 @@ body {
 }
 
 .css-main {
+	position: relative;
+	margin-top: 20%;
+}
+
+.css-background {
+	position: relative;
 	display: flex;
+	margin-top: -10%;
+    left: -8%;
 }
 
-.css-bgimage-top {
-	position: relative;
-	top: -500px;
-    left: -250px;
+.css-background .css-bgimage-top {
+	position: absolute;
+	margin-top: -24%;
+	left: -11%;
+	max-width: 100%;
 }
 
-.css-bgimage-bottom {
-	position: relative;
-	bottom: -370px;
-    right: 580px;
+.css-background .css-bgimage-bottom {
+	position: absolute;
+	margin-top: 33%;
+	left: 56%;
+	max-width: 100%;
 }
 
 
 .css-card {
 	border-radius: 15px;
-	position: relative;
-	top: 150px;
-    left: -370px;
+	position: absolute;
+	left: 38%;
+	margin: 0;
 	height: 390px;
 	width: 350px;
 	background-color: ghostwhite;
@@ -125,6 +135,3 @@ body {
 	color: gray;
 	padding-top: 5px;
 }
-
-
-
