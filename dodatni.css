@@ -1,0 +1,67 @@
+* {
+     box-sizing: border-box;
+}
+
+body {
+	overflow: hidden;
+	background-color: lightgray;
+}
+
+.css-main {
+	position: relative;
+	display: grid;
+	grid-template-areas: 
+            "a a b c"
+            "d e e c";
+
+	width: 80%;
+  	height: 500px;
+  	grid-gap: 50px;
+  	margin: 9%;
+}
+
+.css-a {
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	grid-area: a;
+	background-color: blueviolet;
+  	border-radius: 15px;
+}
+
+.css-b {
+	grid-area: b;
+	background-color: darkgray;
+  	border-radius: 15px;
+}
+
+.css-c {
+	grid-area: c;
+	background-color: whitesmoke;
+  	border-radius: 15px;
+}
+
+.css-d{
+	grid-area: d;
+	background-color: green;
+  	border-radius: 15px;
+}
+
+.css-e {
+	grid-area: e;
+	background-color: pink;
+  	border-radius: 15px;
+}
+
+.picture {
+	display: flex;
+	justify-content: flex-start;
+	padding-left: 30px;
+	padding-top: 30px;
+	height: 70px;
+}
+
+.picture img{
+	border: 2px solid whitesmoke;
+	border-radius: 50%;
+}
